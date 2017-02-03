@@ -6,4 +6,4 @@ To create a buffalo project, please run
 docker run -v $(pwd):/usr/src/app thelastinuit/buffalo buffalo new PROJECT_NAME
 ```
 
-Have in mind that it will create a folder with `PROJECT_NAME` in the current folder.
+Have in mind that it will create a folder with name `PROJECT_NAME` in the current folder.
