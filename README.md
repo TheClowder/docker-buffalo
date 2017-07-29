@@ -6,7 +6,7 @@ To create a buffalo project:
 2. In your terminal please run:
 
 ```bash
-docker run -v $(pwd):/usr/src/app theclowder/buffalo buffalo new PROJECT_NAME
+docker run -v $(pwd):/go/src/projects -w /go/src/projects theclowder/buffalo:latest buffalo new PROJECT_NAME
 ```
 
 And that's it :tada:
